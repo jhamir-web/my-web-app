@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import LoginForm from './Components/LoginForm';
 
 const App = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false); // Track login status
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleLogin = (username, password) => {
     const defaultUsername = "admin";
     const defaultPassword = "admin123";
 
     if (username === defaultUsername && password === defaultPassword) {
-      setIsLoggedIn(true); // Change screen when login is successful
+      setIsLoggedIn(true); 
     } else {
-      alert("❌ Invalid username or password. Try again.");
+      alert("Invalid username or password. Try again.");
     }
   };
 
@@ -19,7 +19,7 @@ const App = () => {
     <div style={styles.container}>
       {isLoggedIn ? (
         <div style={styles.successBox}>
-          <h1 style={styles.successText}>✅ Login Successful</h1>
+          <h1 style={styles.successText}>Login Successful</h1>
           <p style={styles.welcome}>Welcome, Admin!</p>
         </div>
       ) : (
