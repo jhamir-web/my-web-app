@@ -13,7 +13,7 @@ const LoginForm = ({ onLogin }) => {
   return (
     <div style={styles.container}>
       <form onSubmit={handleSubmit} style={styles.form}>
-        <h2 style={styles.title}>Welcome Back 🎧</h2>
+        <h2 style={styles.title}>Welcome Back!</h2>
         <p style={styles.subtitle}>Log in to your account</p>
 
         <InputField
@@ -44,7 +44,7 @@ const styles = {
     height: '100vh',
     justifyContent: 'center',
     alignItems: 'center',
-    background: 'linear-gradient(135deg, #a4508b, #5f0a87)',
+  
   },
   form: {
     backgroundColor: 'white',
@@ -56,14 +56,14 @@ const styles = {
   },
   title: {
     marginBottom: '0.5rem',
-    color: '#5f0a87',
+    color: '#0f76c1ff',
   },
   subtitle: {
     color: '#777',
     marginBottom: '1.5rem',
   },
   button: {
-    backgroundColor: '#5f0a87',
+    backgroundColor: '#0f76c1ff',
     color: 'white',
     padding: '0.8rem 1rem',
     border: 'none',

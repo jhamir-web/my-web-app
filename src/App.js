@@ -35,7 +35,7 @@ const styles = {
     height: '100vh',
     justifyContent: 'center',
     alignItems: 'center',
-    background: 'linear-gradient(135deg, #a4508b, #5f0a87)',
+    background: 'linear-gradient(135deg, #bcdbe4ff, #1d6ed9ff)',
   },
   successBox: {
     backgroundColor: 'white',
@@ -46,7 +46,7 @@ const styles = {
     width: '360px',
   },
   successText: {
-    color: '#5f0a87',
+    color: '#0f76c1ff',
     marginBottom: '0.5rem',
   },
   welcome: {
